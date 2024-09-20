@@ -1,0 +1,36 @@
+/* 蒂芙尼蓝（设计 by 666） */
+.light, [data-theme="light"] {
+  --nextui-background: none !important;
+  background: linear-gradient(135deg, hsl(172, 75%, 95%) 0%, hsl(180, 60%, 98%) 100%) !important;
+}
+
+html {
+  --nextui-primary: 172 73% 45% !important;
+  --nextui-primary-foreground: 0 0% 100% !important;
+  --nextui-secondary: 180 50% 40% !important;
+  --nextui-secondary-foreground: 0 0% 100% !important;
+  --nextui-divider: transparent !important;
+  --nextui-divider-opacity: 0 !important;
+  --nextui-border-width-small: 1px !important;
+  --nextui-border-width-large: 2px !important;
+  --nextui-box-shadow-small: 0px 2px 6px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-medium: 0px 4px 12px rgba(0, 0, 0, 0.04) !important;
+  --nextui-box-shadow-large: 0px 8px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.bg-primary { 
+  background: linear-gradient(135deg, hsl(172, 73%, 45%) 0%, hsl(180, 60%, 50%) 100%) !important;
+}
+
+.tiffany-accent {
+  color: hsl(172, 73%, 45%);
+}
+
+.tiffany-border {
+  border: 2px solid hsl(172, 73%, 45%);
+}
+
+.tiffany-hover:hover {
+  background-color: hsl(172, 73%, 90%);
+  transition: background-color 0.3s ease;
+}
