@@ -1,0 +1,28 @@
+name: Publish
+
+on: push
+permissions: write-all
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - uses: vimtor/action-zip@v1
+        with:
+          files: themes
+          dest: themes.zip
+      - name: Update Tag
+        uses: richardsimko/update-tag@v1
+        with:
+          tag_name: latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Themes
+          tag_name: latest
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: themes.zip
