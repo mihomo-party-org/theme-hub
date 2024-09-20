@@ -1,0 +1,21 @@
+/* 粉色(深色模式灰色背景) */
+
+.light, [data-theme="light"] {
+  --nextui-primary: 331.85 69.23% 77.06% !important;
+  --nextui-secondary: 157.58000000000004 47.15% 62.16% !important;
+}
+
+.dark, [data-theme="dark"] {
+  --nextui-background: 240 5.88% 10% !important;
+  --nextui-content1: 240 3.7% 15.88% !important;
+  --nextui-content2: 240 5.26% 26.08% !important;
+  --nextui-content3: 240 5.2% 33.92% !important;
+  --nextui-default-50: 240 3.7% 15.88% !important;
+  --nextui-default-100: 240 5.26% 26.08% !important;
+  --nextui-default-200: 240 5.2% 33.92% !important;
+  --nextui-default-300: 240 3.83% 46.08% !important;
+  --nextui-default-400: 240 5.03% 64.9% !important;
+  --nextui-default: 240 5.2% 33.92% !important;
+  --nextui-primary: 331.85 69.23% 77.06% !important;
+  --nextui-secondary: 157.58000000000004 47.15% 62.16% !important;
+}
