@@ -1,4 +1,4 @@
-/* 默认(深色模式灰色背景) */
+/* 默认-灰色背景 */
 
 .dark, [data-theme="dark"] {
   --nextui-background: 240 5.88% 10% !important;
