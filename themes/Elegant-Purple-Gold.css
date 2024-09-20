@@ -1,0 +1,23 @@
+/* 典雅紫金（设计 by 666）*/
+.light, [data-theme="light"] {
+  --nextui-background: none !important;
+  background: linear-gradient(135deg, hsl(270, 50%, 95%) 0%, hsl(300, 30%, 98%) 100%) !important;
+}
+
+html {
+  --nextui-primary: 270 60% 50% !important;
+  --nextui-primary-foreground: 0 0% 100% !important;
+  --nextui-secondary: 45 80% 50% !important;
+  --nextui-secondary-foreground: 0 0% 100% !important;
+  --nextui-divider: transparent !important;
+  --nextui-divider-opacity: 0 !important;
+  --nextui-border-width-small: 1px !important;
+  --nextui-border-width-large: 2px !important;
+  --nextui-box-shadow-small: 0px 2px 6px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-medium: 0px 4px 12px rgba(0, 0, 0, 0.04) !important;
+  --nextui-box-shadow-large: 0px 8px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.bg-primary { 
+  background: linear-gradient(135deg, hsl(270, 60%, 50%) 0%, hsl(300, 50%, 55%) 100%) !important;
+}
