@@ -69,6 +69,12 @@
   --nextui-default-600: 250 30% 85% !important;
   --nextui-foreground: 250 30% 85% !important;
   --nextui-default-foreground: 250 30% 85% !important;
+  --nextui-divider-opacity: 0.1 !important;
+  --nextui-border-width-small: 1px !important;
+  --nextui-border-width-large: 1px !important;
+  --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-background: 250 50% 20% !important;
   /* 自定义变量 */
   --custom-primary-background: linear-gradient(
