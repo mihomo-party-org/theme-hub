@@ -2,17 +2,21 @@
 
 .light,
 [data-theme="light"] {
-  --nextui-background: 250 100% 94% !important;
+  --nextui-background: 250 100% 96% !important;
+  --nextui-default-foreground: 265 89.5% 10% !important;
+  --nextui-foreground: 265 89.5% 10% !important;
 }
 
 .dark,
 [data-theme="dark"] {
   --nextui-background: 235 14.3% 15.1% !important;
-  --nextui-default: 232 13.9% 31% !important;
+  --nextui-default: 233 13% 39% !important;
   --nextui-default-100: 232 13.9% 31% !important;
   --nextui-default-200: 233 13% 39% !important;
   --nextui-content1: 231 14.9% 18.4% !important;
   --nextui-content2: 230 14.8% 23.9% !important;
+  --nextui-default-foreground: 265 89.5% 95% !important;
+  --nextui-foreground: 265 89.5% 95% !important;
 }
 
 html {
