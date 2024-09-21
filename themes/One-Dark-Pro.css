@@ -1,0 +1,19 @@
+/* One Dark Pro */
+
+.dark,
+[data-theme="dark"] {
+  --nextui-background: 216 13.16% 14.9% !important;
+  --nextui-default: 217.5 13.11% 23.92% !important;
+  --nextui-default-100: 217.5 13.11% 23.92% !important;
+  --nextui-default-200: 218.57 13.73% 20% !important;
+  --nextui-content1: 220 13.04% 18.04% !important;
+  --nextui-content2: 217.5 13.11% 23.92% !important;
+}
+
+html {
+  --nextui-primary: 207.04 81.61% 65.88% !important;
+  --nextui-secondary: 186.67 46.96% 54.9% !important;
+  --nextui-success: 94.86 38.14% 61.96% !important;
+  --nextui-warning: 39.06 67.09% 69.02% !important;
+  --nextui-danger: 355.34 65.17% 65.1% !important;
+}
