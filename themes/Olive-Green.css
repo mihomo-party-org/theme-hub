@@ -1,23 +1,69 @@
 /* 橄榄绿（设计 by 666）*/
-.light, [data-theme="light"] {
-  --nextui-background: none !important;
-  background: linear-gradient(135deg, hsl(80, 40%, 94%) 0%, hsl(60, 30%, 97%) 100%) !important;
-}
 
-html {
-  --nextui-primary: 80 50% 45% !important;
+.light, [data-theme="light"] { 
+  --nextui-primary: 80 35% 40% !important;
   --nextui-primary-foreground: 0 0% 100% !important;
-  --nextui-secondary: 60 40% 35% !important;
+  --nextui-secondary: 80 25% 30% !important;
   --nextui-secondary-foreground: 0 0% 100% !important;
-  --nextui-divider: transparent !important;
-  --nextui-divider-opacity: 0 !important;
+  --nextui-content1: 80 20% 100% !important;
+  --nextui-content1-foreground: 80 35% 30% !important;
+  --nextui-content2: 0 0% 100% !important;
+  --nextui-content2-foreground: 80 35% 25% !important;
+  --nextui-content3: 80 20% 98% !important;
+  --nextui-content3-foreground: 80 35% 20% !important;
+  --nextui-content4: 80 20% 98% !important;
+  --nextui-content4-foreground: 80 35% 15% !important;
+  --nextui-default: 80 15% 95% !important;
+  --nextui-default-50: 80 15% 90% !important;
+  --nextui-default-100: 80 60% 90% !important;
+  --nextui-default-200: 80 60% 90% !important;
+  --nextui-default-300: 80 35% 25% !important;
+  --nextui-default-400: 80 35% 25% !important;
+  --nextui-default-500: 80 35% 35% !important;
+  --nextui-default-600: 80 35% 25% !important;
+  --nextui-foreground: 80 35% 25% !important;
+  --nextui-divider-opacity: 0.1 !important;
   --nextui-border-width-small: 1px !important;
-  --nextui-border-width-large: 2px !important;
-  --nextui-box-shadow-small: 0px 2px 6px rgba(0, 0, 0, 0.02) !important;
-  --nextui-box-shadow-medium: 0px 4px 12px rgba(0, 0, 0, 0.04) !important;
-  --nextui-box-shadow-large: 0px 8px 20px rgba(0, 0, 0, 0.06) !important;
+  --nextui-border-width-large: 1px !important;
+  --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-background: none !important;
+  .bg-primary { background: linear-gradient(135deg, hsl(80, 35%, 40%) 0%, hsl(60, 40%, 50%) 100%) !important;}
+  .main { background: hsl(80, 20%, 98%) !important}
+  .side { background: linear-gradient(135deg, hsl(80, 60%, 80%) 0%, hsl(80, 20%, 98%) 100%) !important}
 }
 
-.bg-primary { 
-  background: linear-gradient(135deg, hsl(80, 50%, 45%) 0%, hsl(60, 40%, 50%) 100%) !important;
+.dark, [data-theme="dark"] { 
+  --nextui-primary: 80 35% 45% !important;
+  --nextui-primary-foreground: 0 0% 100% !important;
+  --nextui-secondary: 80 30% 35% !important;
+  --nextui-secondary-foreground: 0 0% 100% !important;
+  --nextui-content1: 80 15% 20% !important;
+  --nextui-content1-foreground: 80 15% 85% !important;
+  --nextui-content2: 80 15% 10% !important;
+  --nextui-content2-foreground: 80 15% 85% !important;
+  --nextui-content3: 80 15% 20% !important;
+  --nextui-content3-foreground: 80 15% 85% !important;
+  --nextui-content4: 80 15% 20% !important;
+  --nextui-content4-foreground: 80 15% 85% !important;
+  --nextui-default: 80 15% 25% !important;
+  --nextui-default-50: 80 15% 25% !important;
+  --nextui-default-100: 80 15% 25% !important;
+  --nextui-default-200: 80 15% 25% !important;
+  --nextui-default-300: 80 15% 85% !important;
+  --nextui-default-400: 80 15% 85% !important;
+  --nextui-default-500: 80 20% 70% !important;
+  --nextui-default-600: 80 15% 85% !important;
+  --nextui-foreground: 80 15% 85% !important;
+  --nextui-divider-opacity: 0.1 !important;
+  --nextui-border-width-small: 1px !important;
+  --nextui-border-width-large: 1px !important;
+  --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
+  .bg-primary { background: linear-gradient(135deg, hsl(80, 35%, 40%) 0%, hsl(60, 40%, 50%) 100%) !important;}
+  --nextui-background: none !important;
+  .main { background: hsl(80, 15%, 15%) !important}
+  .side { background: linear-gradient(135deg, hsl(80, 15%, 5%) 0%, hsl(80, 15%, 15%) 100%) !important}
 }
