@@ -1,6 +1,7 @@
 /* 金粉世家（设计 by 666）*/
 
-.light, [data-theme="light"] { 
+.light,
+[data-theme="light"] {
   --nextui-primary: 330 80% 70% !important;
   --nextui-primary-foreground: 0 0% 100% !important;
   --nextui-secondary: 330 70% 50% !important;
@@ -22,6 +23,7 @@
   --nextui-default-500: 330 30% 60% !important;
   --nextui-default-600: 330 30% 35% !important;
   --nextui-foreground: 330 20% 35% !important;
+  --nextui-default-foreground: 330 20% 35% !important;
   --nextui-divider-opacity: 0.1 !important;
   --nextui-border-width-small: 1px !important;
   --nextui-border-width-large: 1px !important;
@@ -29,12 +31,27 @@
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-background: none !important;
-  .bg-primary { background: linear-gradient(135deg,hsl(330, 80%, 70%) 0%, hsl(350, 70%, 75%) 100%) !important;}
-  .main { background: hsl(330, 80%, 98%) !important}
-  .side { background: linear-gradient(135deg, hsl(330, 80%, 90%) 0%, hsl(330, 80%, 98%) 100%) !important}
+  .bg-primary {
+    background: linear-gradient(
+      135deg,
+      hsl(330, 80%, 70%) 0%,
+      hsl(350, 70%, 75%) 100%
+    ) !important;
+  }
+  .main {
+    background: hsl(330, 80%, 98%) !important;
+  }
+  .side {
+    background: linear-gradient(
+      135deg,
+      hsl(330, 80%, 90%) 0%,
+      hsl(330, 80%, 98%) 100%
+    ) !important;
+  }
 }
 
-.dark, [data-theme="dark"] { 
+.dark,
+[data-theme="dark"] {
   --nextui-primary: 330 80% 70% !important;
   --nextui-primary-foreground: 330 30% 90% !important;
   --nextui-secondary: 330 70% 70% !important;
@@ -56,14 +73,29 @@
   --nextui-default-500: 330 30% 70% !important;
   --nextui-default-600: 330 30% 85% !important;
   --nextui-foreground: 330 30% 85% !important;
+  --nextui-default-foreground: 330 30% 85% !important;
   --nextui-divider-opacity: 0.1 !important;
   --nextui-border-width-small: 1px !important;
   --nextui-border-width-large: 1px !important;
   --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
-  .bg-primary { background: linear-gradient(135deg,hsl(330, 70%, 55%) 0%, hsl(350, 60%, 65%) 100%) !important;}
+  .bg-primary {
+    background: linear-gradient(
+      135deg,
+      hsl(330, 70%, 55%) 0%,
+      hsl(350, 60%, 65%) 100%
+    ) !important;
+  }
   --nextui-background: none !important;
-  .main { background: hsl(330, 40%, 15%) !important}
-  .side { background: linear-gradient(135deg, hsl(330, 40%, 5%) 0%, hsl(330, 40%, 15%) 100%) !important}
+  .main {
+    background: hsl(330, 40%, 15%) !important;
+  }
+  .side {
+    background: linear-gradient(
+      135deg,
+      hsl(330, 40%, 5%) 0%,
+      hsl(330, 40%, 15%) 100%
+    ) !important;
+  }
 }
