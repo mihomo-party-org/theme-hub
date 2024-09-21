@@ -1,0 +1,24 @@
+/* Dracula */
+
+.light,
+[data-theme="light"] {
+  --nextui-background: 250 100% 94% !important;
+}
+
+.dark,
+[data-theme="dark"] {
+  --nextui-background: 235 14.3% 15.1% !important;
+  --nextui-default: 232 13.9% 31% !important;
+  --nextui-default-100: 232 13.9% 31% !important;
+  --nextui-default-200: 233 13% 39% !important;
+  --nextui-content1: 231 14.9% 18.4% !important;
+  --nextui-content2: 230 14.8% 23.9% !important;
+}
+
+html {
+  --nextui-primary: 265 89.5% 77.6% !important;
+  --nextui-secondary: 330 100% 73.7% !important;
+  --nextui-success: 135 94.4% 64.7% !important;
+  --nextui-warning: 30 100% 66.9% !important;
+  --nextui-danger: 3 68.7% 58.6% !important;
+}
