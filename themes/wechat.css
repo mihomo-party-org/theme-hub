@@ -1,0 +1,29 @@
+/* 小而美 */
+
+.dark, [data-theme="dark"] {
+    --nextui-success: 148 49 48% !important;
+    --nextui-background: 0 0 7% !important;
+    --nextui-content1: 0 0 10% !important;
+    --nextui-content2: 0 0 14% !important;
+    --nextui-content3: 0 0 18% !important;
+    --nextui-content4: 0 0 22% !important;
+    --nextui-default: 0 0 18% !important;
+    --nextui-default-50: 0 0 10% !important;
+    --nextui-default-100: 0 0 14% !important;
+    --nextui-default-200: 0 0 18% !important;
+    --nextui-default-300: 0 0 22% !important;
+}
+
+.light, [data-theme="light"] {
+    --nextui-success: 100 78 67% !important;
+    --nextui-background: 0 0 96% !important;
+}
+
+html {
+    --nextui-primary: 149 93 39% !important;
+    --nextui-warning: 32 93 60% !important;
+    --nextui-danger: 1 92 64% !important;
+    --nextui-radius-small: 4px !important;
+    --nextui-radius-medium: 6px !important;
+    --nextui-radius-large: 8px !important;
+}
