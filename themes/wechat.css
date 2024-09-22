@@ -1,7 +1,6 @@
 /* 小而美 */
 
 .dark, [data-theme="dark"] {
-    --nextui-success: 148 49 48% !important;
     --nextui-background: 0 0 7% !important;
     --nextui-content1: 0 0 10% !important;
     --nextui-content2: 0 0 14% !important;
@@ -15,13 +14,13 @@
 }
 
 .light, [data-theme="light"] {
-    --nextui-success: 100 78 67% !important;
     --nextui-background: 0 0 96% !important;
 }
 
 html {
     --nextui-primary: 149 93 39% !important;
     --nextui-secondary: 209 87 51% !important;
+    --nextui-success: 149 93 39% !important;
     --nextui-warning: 32 93 60% !important;
     --nextui-danger: 1 92 64% !important;
     --nextui-radius-small: 4px !important;
