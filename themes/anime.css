@@ -2,53 +2,65 @@
 
 .light,
 [data-theme="light"] {
-  --custom-content1-opacity: 0.7 !important;
-  --custom-content2-opacity: 0.8 !important;
-  /* 写base64可以不从网络加载图片 */
-  --custom-background-image: url("https://w.wallhaven.cc/full/jx/wallhaven-jxl31y.png");
+    /* 主题色 */
+    --nextui-primary: 350 70% 75% !important;
+    --custom-content1-opacity: 0.7 !important;
+    --custom-content2-opacity: 0.8 !important;
+    /* 写base64可以不从网络加载图片 */
+    --custom-background-image: url("https://w.wallhaven.cc/full/jx/wallhaven-jxl31y.png");
 }
 
 .dark,
 [data-theme="dark"] {
-  --custom-content1-opacity: 0.8 !important;
-  --custom-content2-opacity: 0.7 !important;
-  /* 写base64可以不从网络加载图片 */
-  --custom-background-image: url("https://w.wallhaven.cc/full/yj/wallhaven-yjk6ml.jpg");
+    /* 主题色 */
+    --nextui-primary: 210 100% 45% !important;
+    --custom-content1-opacity: 0.8 !important;
+    --custom-content2-opacity: 0.7 !important;
+    /* 写base64可以不从网络加载图片 */
+    --custom-background-image: url("https://w.wallhaven.cc/full/yj/wallhaven-yjk6ml.jpg");
 }
 
 html {
-  --nextui-background: none !important;
-  background: transparent !important;
-  background-image: var(--custom-background-image) !important;
-  background-size: cover !important;
+    --nextui-background: none !important;
+    background: transparent !important;
+    background-image: var(--custom-background-image) !important;
+    background-size: cover !important;
 }
 
 .bg-default {
-  opacity: var(--custom-content1-opacity) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-default-100 {
-  opacity: var(--custom-content1-opacity) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-default-200 {
-  opacity: var(--custom-content1-opacity) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-content1 {
-  opacity: var(--custom-content1-opacity) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-content2 {
-  opacity: var(--custom-content2-opacity) !important;
+    opacity: var(--custom-content2-opacity) !important;
 }
+
 .bg-primary {
-  opacity: var(--custom-content1-opacity) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-primary\/30 {
-  background-color: hsl(var(--nextui-primary)) !important;
-  opacity: var(--custom-content1-opacity) !important;
+    background-color: hsl(var(--nextui-primary)) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .bg-secondary\/30 {
-  background-color: hsl(var(--nextui-secondary)) !important;
-  opacity: var(--custom-content1-opacity) !important;
+    background-color: hsl(var(--nextui-secondary)) !important;
+    opacity: var(--custom-content1-opacity) !important;
 }
+
 .main .sticky {
     backdrop-filter: blur(8px);
 }
