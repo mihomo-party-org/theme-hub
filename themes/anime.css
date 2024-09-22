@@ -24,13 +24,13 @@ html {
 }
 
 .bg-default {
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
 }
 .bg-default-100 {
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
 }
 .bg-default-200 {
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
 }
 .bg-content1 {
   opacity: var(--custom-content1-opacity) !important;
@@ -39,13 +39,16 @@ html {
   opacity: var(--custom-content2-opacity) !important;
 }
 .bg-primary {
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
 }
 .bg-primary\/30 {
   background-color: hsl(var(--nextui-primary)) !important;
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
 }
 .bg-secondary\/30 {
   background-color: hsl(var(--nextui-secondary)) !important;
-  opacity: 0.8 !important;
+  opacity: var(--custom-content1-opacity) !important;
+}
+.main .sticky {
+    backdrop-filter: blur(8px);
 }
