@@ -21,6 +21,7 @@
 
 html {
     --nextui-primary: 149 93 39% !important;
+    --nextui-secondary: 209 87 51% !important;
     --nextui-warning: 32 93 60% !important;
     --nextui-danger: 1 92 64% !important;
     --nextui-radius-small: 4px !important;
