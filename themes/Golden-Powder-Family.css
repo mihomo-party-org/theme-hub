@@ -29,7 +29,7 @@
   --custom-primary-background: linear-gradient(
     135deg,
     hsl(330, 80%, 70%) 0%,
-    hsl(350, 70%, 75%) 100%
+    hsl(0, 100%, 84%) 100%
 );
   --custom-main-background: hsl(330, 90%, 98%);
   --custom-side-background: linear-gradient(
@@ -68,7 +68,7 @@
   --custom-primary-background: linear-gradient(
     135deg,
     hsl(330, 70%, 55%) 0%,
-    hsl(350, 60%, 65%) 100%
+    hsl(0, 100%, 84%) 100%
 );
   --custom-main-background: hsl(330, 20%, 15%);
   --custom-side-background: linear-gradient(
