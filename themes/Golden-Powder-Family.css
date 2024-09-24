@@ -2,76 +2,59 @@
 
 .light,
 [data-theme="light"] {
-  --nextui-primary: 330 80% 70% !important;
-  --nextui-primary-foreground: 0 0% 100% !important;
-  --nextui-secondary: 330 70% 50% !important;
-  --nextui-secondary-foreground: 0 0% 100% !important;
+  --nextui-primary: 330 90% 75% !important;
+  --nextui-secondary: 340 90% 50% !important;
   --nextui-content1: 330 30% 100% !important;
-  --nextui-content1-foreground: 330 30% 70% !important;
-  --nextui-content2: 0 0% 100% !important;
-  --nextui-content2-foreground: 330 30% 65% !important;
-  --nextui-content3: 330 30% 100% !important;
-  --nextui-content3-foreground: 330 30% 60% !important;
-  --nextui-content4: 330 30% 100% !important;
-  --nextui-content4-foreground: 330 60% 55% !important;
-  --nextui-default: 330 30% 95% !important;
-  --nextui-default-50: 330 30% 90% !important;
-  --nextui-default-100: 330 70% 95% !important;
-  --nextui-default-200: 330 70% 90% !important;
-  --nextui-default-300: 330 20% 35% !important;
-  --nextui-default-400: 330 20% 35% !important;
-  --nextui-default-500: 330 30% 60% !important;
-  --nextui-default-600: 330 30% 35% !important;
-  --nextui-foreground: 330 20% 35% !important;
-  --nextui-default-foreground: 330 20% 35% !important;
+  --nextui-content2: 330 30% 92% !important;
+  --nextui-content3: 330 30% 90% !important;
+  --nextui-content4: 330 30% 85% !important;
+  --nextui-default: 330 30% 85% !important;
+  --nextui-default-50: 330 30% 100% !important;
+  --nextui-default-100: 330 30% 95% !important;
+  --nextui-default-200: 330 30% 90% !important;
+  --nextui-default-300: 330 30% 85% !important;
+  --nextui-default-400: 330 30% 80% !important;
+  --nextui-default-500: 330 30% 75% !important;
+  --nextui-default-600: 330 30% 70% !important;
+  --nextui-foreground: 330 30% 35% !important;
+  --nextui-default-foreground: 330 30% 35% !important;
   --nextui-divider-opacity: 0.1 !important;
   --nextui-border-width-small: 1px !important;
   --nextui-border-width-large: 1px !important;
   --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
-  --nextui-background: none !important;
-  .bg-primary {
-    background: linear-gradient(
-      135deg,
-      hsl(330, 80%, 70%) 0%,
-      hsl(350, 70%, 75%) 100%
-    ) !important;
-  }
-  .main {
-    background: hsl(330, 80%, 98%) !important;
-  }
-  .side {
-    background: linear-gradient(
-      135deg,
-      hsl(330, 80%, 90%) 0%,
-      hsl(330, 80%, 98%) 100%
-    ) !important;
-  }
+  --nextui-background: 330 90% 98% !important;
+  /* 自定义变量 */
+  --custom-primary-background: linear-gradient(
+    135deg,
+    hsl(330, 80%, 70%) 0%,
+    hsl(350, 70%, 75%) 100%
+);
+  --custom-main-background: hsl(330, 90%, 98%);
+  --custom-side-background: linear-gradient(
+    135deg,
+    hsl(330, 80%, 90%) 0%,
+    hsl(330, 80%, 98%) 100%
+);
 }
 
 .dark,
 [data-theme="dark"] {
-  --nextui-primary: 330 80% 70% !important;
-  --nextui-primary-foreground: 330 30% 90% !important;
-  --nextui-secondary: 330 70% 70% !important;
-  --nextui-secondary-foreground: 330 30% 90% !important;
-  --nextui-content1: 330 30% 25% !important;
-  --nextui-content1-foreground: 330 60% 80% !important;
-  --nextui-content2: 330 30% 10% !important;
-  --nextui-content2-foreground: 330 60% 80% !important;
-  --nextui-content3: 330 30% 30% !important;
-  --nextui-content3-foreground: 330 60% 80% !important;
-  --nextui-content4: 330 30% 30% !important;
-  --nextui-content4-foreground: 330 60% 80% !important;
+  --nextui-primary: 330 90% 75% !important;
+  --nextui-secondary: 340 90% 50% !important;
+  --nextui-content1: 330 30% 30% !important;
+  --nextui-content2: 330 30% 35% !important;
+  --nextui-content3: 330 30% 40% !important;
+  --nextui-content4: 330 30% 45% !important;
   --nextui-default: 330 30% 40% !important;
-  --nextui-default-50: 330 30% 40% !important;
-  --nextui-default-100: 330 30% 40% !important;
+  --nextui-default-50: 330 30% 30% !important;
+  --nextui-default-100: 330 30% 35% !important;
   --nextui-default-200: 330 30% 40% !important;
-  --nextui-default-300: 330 30% 85% !important;
-  --nextui-default-400: 330 30% 85% !important;
-  --nextui-default-500: 330 30% 70% !important;
-  --nextui-default-600: 330 30% 85% !important;
+  --nextui-default-300: 330 30% 45% !important;
+  --nextui-default-400: 330 30% 50% !important;
+  --nextui-default-500: 330 30% 55% !important;
+  --nextui-default-600: 330 30% 60% !important;
   --nextui-foreground: 330 30% 85% !important;
   --nextui-default-foreground: 330 30% 85% !important;
   --nextui-divider-opacity: 0.1 !important;
@@ -80,22 +63,44 @@
   --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
-  .bg-primary {
-    background: linear-gradient(
-      135deg,
-      hsl(330, 70%, 55%) 0%,
-      hsl(350, 60%, 65%) 100%
-    ) !important;
-  }
-  --nextui-background: none !important;
-  .main {
-    background: hsl(330, 40%, 15%) !important;
-  }
-  .side {
-    background: linear-gradient(
-      135deg,
-      hsl(330, 40%, 5%) 0%,
-      hsl(330, 40%, 15%) 100%
-    ) !important;
-  }
+  --nextui-background: 330 20% 15% !important;
+  /* 自定义变量 */
+  --custom-primary-background: linear-gradient(
+    135deg,
+    hsl(330, 70%, 55%) 0%,
+    hsl(350, 60%, 65%) 100%
+);
+  --custom-main-background: hsl(330, 20%, 15%);
+  --custom-side-background: linear-gradient(
+    135deg,
+    hsl(330, 40%, 5%) 0%,
+    hsl(330, 20%, 15%) 100%
+);
+}
+
+/* 下拉菜单保持默认阴影 */
+[data-slot="content"] {
+  --nextui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
+    0px 2px 10px 0px rgb(0 0 0 / 0.2),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --nextui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
+    0px 2px 30px 0px rgb(0 0 0 / 0.22),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
+    0px 30px 60px 0px rgb(0 0 0 / 0.26),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --nextui-hover-opacity: 0.9 !important;
+}
+
+.bg-primary {
+  background: var(--custom-primary-background) !important;
+}
+.bg-primary\/30 {
+  background: var(--custom-primary-background) !important;
+}
+.main {
+  background: var(--custom-main-background) !important;
+}
+.side {
+  background: var(--custom-side-background) !important;
 }
