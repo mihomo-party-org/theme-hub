@@ -9,6 +9,10 @@
     border-radius: var(--nextui-radius-small);
 }
 
+.border-primary-foreground span {
+    background-color: hsl(var(--nextui-primary-foreground));
+}
+
 html{
     --nextui-background: 0 0% 0% !important;
     --nextui-foreground-50: 240 5.88% 10% !important;
