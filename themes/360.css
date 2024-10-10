@@ -9,7 +9,6 @@
 }
 
 .floating-thumb {
-    animation: spin 2s linear infinite !important;
     background-size: contain !important;
     background-image: url('https://p3.ssl.qhimg.com/t0128439c6143122bad.png') !important;
 }
