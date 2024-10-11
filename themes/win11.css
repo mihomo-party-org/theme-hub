@@ -59,16 +59,16 @@ label[data-selected="true"]>span>span {
 
 .dark, [data-theme="dark"] {
     --nextui-background: 0 0% 13% !important;
-    --nextui-foreground-50: 0 0 100% !important;
-    --nextui-foreground-100: 0 0 100% !important;
-    --nextui-foreground-200: 0 0 100% !important;
-    --nextui-foreground-300: 0 0 100% !important;
-    --nextui-foreground-400: 0 0 100% !important;
-    --nextui-foreground-500: 0 0 100% !important;
-    --nextui-foreground-600: 0 0 100% !important;
-    --nextui-foreground-700: 0 0 100% !important;
-    --nextui-foreground-800: 0 0 100% !important;
-    --nextui-foreground-900: 0 0 100% !important;
+    --nextui-foreground-50: 0 0 10% !important;
+    --nextui-foreground-100: 0 0 15% !important;
+    --nextui-foreground-200: 0 0 20% !important;
+    --nextui-foreground-300: 0 0 30% !important;
+    --nextui-foreground-400: 0 0 40% !important;
+    --nextui-foreground-500: 0 0 50% !important;
+    --nextui-foreground-600: 0 0 60% !important;
+    --nextui-foreground-700: 0 0 70% !important;
+    --nextui-foreground-800: 0 0 80% !important;
+    --nextui-foreground-900: 0 0 90% !important;
     --nextui-foreground: 0 0 100% !important;
     --nextui-divider-opacity: 0 !important;
     --nextui-content1: 0 0% 17% !important;
@@ -121,16 +121,16 @@ label[data-selected="true"]>span>span {
 .light, [data-theme="light"] {
     color-scheme: light !important;
     --nextui-background: 0 0% 95% !important;
-    --nextui-foreground-50: 0 0 0% !important;
-    --nextui-foreground-100: 0 0 0% !important;
-    --nextui-foreground-200: 0 0 0% !important;
-    --nextui-foreground-300: 0 0 0% !important;
-    --nextui-foreground-400: 0 0 0% !important;
-    --nextui-foreground-500: 0 0 0% !important;
-    --nextui-foreground-600: 0 0 0% !important;
-    --nextui-foreground-700: 0 0 0% !important;
-    --nextui-foreground-800: 0 0 0% !important;
-    --nextui-foreground-900: 0 0 0% !important;
+    --nextui-foreground-50: 0 0 98% !important;
+    --nextui-foreground-100: 0 0 95% !important;
+    --nextui-foreground-200: 0 0 90% !important;
+    --nextui-foreground-300: 0 0 80% !important;
+    --nextui-foreground-400: 0 0 70% !important;
+    --nextui-foreground-500: 0 0 60% !important;
+    --nextui-foreground-600: 0 0 50% !important;
+    --nextui-foreground-700: 0 0 40% !important;
+    --nextui-foreground-800: 0 0 30% !important;
+    --nextui-foreground-900: 0 0 20% !important;
     --nextui-foreground: 0 0 0% !important;
     --nextui-divider-opacity: 0 !important;
     --nextui-content1: 0 0% 98% !important;
