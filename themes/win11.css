@@ -14,7 +14,7 @@
 
 label:not([data-selected])>span {
     height: 20px !important;
-    background-color: transparent !important;
+    background-color: hsl(var(--nextui-content1)) !important;
     border: 1px hsl(var(--nextui-default-800)) solid !important;
 }
 
