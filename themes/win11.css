@@ -12,14 +12,14 @@
     --nextui-divider-opacity: 0.15 !important;
 }
 
-label:not([data-selected])>span {
+label:not([data-selected])>span.items-center {
     height: 20px !important;
     background-color: hsl(var(--nextui-content1)) !important;
     border: 1px hsl(var(--nextui-default-800)) solid !important;
 }
 
 label[data-selected="true"]>span {
-    height: 20px !important;
+    height: 18px !important;
 }
 
 label:not([data-selected])>span>span {
@@ -31,8 +31,12 @@ label:not([data-selected])>span>span {
 label[data-selected="true"]>span>span {
     height: 12px !important;
     width: 12px !important;
-    transform: translateX(2px) !important;
+    transform: translateX(4px) !important;
     background-color: hsl(var(--nextui-primary-foreground)) !important;
+}
+
+.side label[data-selected="true"]>span>span {
+    transform: translateX(2px) !important;
 }
 
 [data-slot="content"] [data-slot="listbox"]>li[data-selected="true"] {
