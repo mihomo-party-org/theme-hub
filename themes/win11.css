@@ -22,7 +22,7 @@ label:not([data-selected])>span.items-center {
     border: 1px hsl(var(--nextui-default-800)) solid !important;
 }
 
-label[data-selected="true"]>span {
+label[data-selected="true"]>span.items-center {
     height: 18px !important;
 }
 
