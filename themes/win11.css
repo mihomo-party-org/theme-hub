@@ -4,6 +4,10 @@
     border-bottom: 1px solid hsl(var(--nextui-default-800)) !important;
 }
 
+[data-testid="virtuoso-scroller"] [data-slot="input-wrapper"] {
+    border: none !important;
+}
+
 [data-slot="input-wrapper"][data-focus="true"]{
     border-bottom: 2px solid hsl(var(--nextui-primary)) !important;
 }
