@@ -4,6 +4,10 @@
     border-bottom: 1px solid hsl(var(--nextui-default-800)) !important;
 }
 
+[data-testid="virtuoso-scroller"] .flag-emoji.h-\[32px\] {
+    font-weight: bold !important;
+}
+
 [data-testid="virtuoso-scroller"] [data-slot="input-wrapper"] {
     border: none !important;
 }
