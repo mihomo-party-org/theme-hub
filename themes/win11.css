@@ -8,11 +8,12 @@
     border: none !important;
 }
 
-[data-slot="input-wrapper"][data-focus="true"]{
+[data-slot="input-wrapper"][data-focus="true"] {
     border-bottom: 2px solid hsl(var(--nextui-primary)) !important;
 }
 
-.sticky,[data-orientation="vertical"] {
+.sticky,
+[data-orientation="vertical"] {
     --nextui-divider-opacity: 0.15 !important;
 }
 
@@ -49,23 +50,29 @@ label[data-selected="true"]>span>span {
 }
 
 [data-slot="content"] {
-  --nextui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
-    0px 2px 10px 0px rgb(0 0 0 / 0.2),
-    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-  --nextui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
-    0px 2px 30px 0px rgb(0 0 0 / 0.22),
-    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-  --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
-    0px 30px 60px 0px rgb(0 0 0 / 0.26),
-    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-  --nextui-hover-opacity: 0.9 !important;
+    --nextui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
+        0px 2px 10px 0px rgb(0 0 0 / 0.2),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
+        0px 2px 30px 0px rgb(0 0 0 / 0.22),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
+        0px 30px 60px 0px rgb(0 0 0 / 0.26),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-hover-opacity: 0.9 !important;
+}
+
+.floating-bg {
+    --nextui-divider-opacity: 0.15 !important;
+    border: 1px solid hsl(var(--nextui-divider) / var(--nextui-divider-opacity)) !important;
 }
 
 .side .grid>div>div:not(.bg-primary):hover {
     background-color: hsl(var(--nextui-content2)) !important;
 }
 
-.dark, [data-theme="dark"] {
+.dark,
+[data-theme="dark"] {
     --nextui-background: 0 0% 13% !important;
     --nextui-foreground-50: 0 0 10% !important;
     --nextui-foreground-100: 0 0 15% !important;
@@ -126,7 +133,8 @@ label[data-selected="true"]>span>span {
     --nextui-box-shadow-large: none !important;
 }
 
-.light, [data-theme="light"] {
+.light,
+[data-theme="light"] {
     color-scheme: light !important;
     --nextui-background: 0 0% 95% !important;
     --nextui-foreground-50: 0 0 98% !important;
