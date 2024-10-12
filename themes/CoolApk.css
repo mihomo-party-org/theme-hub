@@ -19,8 +19,8 @@
 
 .light,
 [data-theme="light"] {
-  --nextui-primary: 122 39% 49% !important;
-  --nextui-secondary: 122 38% 59% !important;
+  --nextui-primary: 151 83% 34% !important;
+  --nextui-secondary: 151 48% 47% !important;
   --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
@@ -35,8 +35,8 @@
 
 .dark,
 [data-theme="dark"] {
-  --nextui-primary: 122 39% 49% !important;
-  --nextui-secondary: 122 38% 59% !important;
+  --nextui-primary: 151 83% 27% !important;
+  --nextui-secondary: 150 43% 42% !important;
   --nextui-box-shadow-small: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-medium: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
   --nextui-box-shadow-large: 0px 4px 10px rgba(0, 0, 0, 0.02) !important;
