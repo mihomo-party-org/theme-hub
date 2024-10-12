@@ -1,0 +1,201 @@
+/* Win11 */
+
+[data-slot="input-wrapper"] {
+    border-bottom: 1px solid hsl(var(--nextui-default-800)) !important;
+}
+
+[data-testid="virtuoso-scroller"] .flag-emoji.h-\[32px\] {
+    font-weight: bold !important;
+}
+
+[data-testid="virtuoso-scroller"] [data-slot="input-wrapper"] {
+    border: none !important;
+}
+
+[data-slot="input-wrapper"][data-focus="true"] {
+    border-bottom: 2px solid hsl(var(--nextui-primary)) !important;
+}
+
+.sticky,
+[data-orientation="vertical"] {
+    --nextui-divider-opacity: 0.15 !important;
+}
+
+label:not([data-selected])>span.items-center {
+    height: 20px !important;
+    background-color: hsl(var(--nextui-content1)) !important;
+    border: 1px hsl(var(--nextui-default-800)) solid !important;
+}
+
+label[data-selected="true"]>span.items-center {
+    height: 18px !important;
+}
+
+label:not([data-selected])>span>span {
+    height: 12px !important;
+    width: 12px !important;
+    background-color: hsl(var(--nextui-default-800)) !important;
+}
+
+label[data-selected="true"]>span>span {
+    height: 12px !important;
+    width: 12px !important;
+    transform: translateX(4px) !important;
+    background-color: hsl(var(--nextui-primary-foreground)) !important;
+}
+
+.side label[data-selected="true"]>span>span {
+    transform: translateX(2px) !important;
+}
+
+[data-slot="content"] [data-slot="listbox"]>li[data-selected="true"] {
+    border-left: 3px hsl(var(--nextui-primary)) solid !important;
+    background-color: hsl(var(--nextui-content2)) !important;
+}
+
+[data-slot="content"] {
+    --nextui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
+        0px 2px 10px 0px rgb(0 0 0 / 0.2),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
+        0px 2px 30px 0px rgb(0 0 0 / 0.22),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
+        0px 30px 60px 0px rgb(0 0 0 / 0.26),
+        inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+    --nextui-hover-opacity: 0.9 !important;
+}
+
+.floating-bg {
+    --nextui-divider-opacity: 0.15 !important;
+    border: 1px solid hsl(var(--nextui-divider) / var(--nextui-divider-opacity)) !important;
+}
+
+.side .grid>div>div:not(.bg-primary):hover {
+    background-color: hsl(var(--nextui-content2)) !important;
+}
+
+.dark,
+[data-theme="dark"] {
+    --nextui-background: 0 0% 13% !important;
+    --nextui-foreground-50: 0 0 10% !important;
+    --nextui-foreground-100: 0 0 15% !important;
+    --nextui-foreground-200: 0 0 20% !important;
+    --nextui-foreground-300: 0 0 30% !important;
+    --nextui-foreground-400: 0 0 40% !important;
+    --nextui-foreground-500: 0 0 50% !important;
+    --nextui-foreground-600: 0 0 60% !important;
+    --nextui-foreground-700: 0 0 70% !important;
+    --nextui-foreground-800: 0 0 80% !important;
+    --nextui-foreground-900: 0 0 90% !important;
+    --nextui-foreground: 0 0 100% !important;
+    --nextui-divider-opacity: 0 !important;
+    --nextui-content1: 0 0% 17% !important;
+    --nextui-content2: 0 0% 21% !important;
+    --nextui-content3: 0 0% 25% !important;
+    --nextui-content4: 0 0% 30% !important;
+    --nextui-default-50: 0 0% 17% !important;
+    --nextui-default-100: 0 0% 21% !important;
+    --nextui-default-200: 0 0% 25% !important;
+    --nextui-default-300: 0 0% 30% !important;
+    --nextui-default-400: 0 0% 40% !important;
+    --nextui-default-500: 0 0% 50% !important;
+    --nextui-default-600: 0 0% 60% !important;
+    --nextui-default-700: 0 0% 70% !important;
+    --nextui-default-800: 0 0% 80% !important;
+    --nextui-default-900: 0 0% 90% !important;
+    --nextui-default: 0 0 21% !important;
+    --nextui-primary-50: 200 100 65% !important;
+    --nextui-primary-100: 200 100 65% !important;
+    --nextui-primary-200: 200 100 65% !important;
+    --nextui-primary-300: 200 100 65% !important;
+    --nextui-primary-400: 200 100 65% !important;
+    --nextui-primary-500: 200 100 65% !important;
+    --nextui-primary-600: 2200 100 65% !important;
+    --nextui-primary-700: 200 100 65% !important;
+    --nextui-primary-800: 200 100 65% !important;
+    --nextui-primary-900: 200 100 65% !important;
+    --nextui-primary-foreground: 0 0% 0% !important;
+    --nextui-primary: 200 100 65% !important;
+    --nextui-secondary-50: 294 58 72% !important;
+    --nextui-secondary-100: 294 58 72% !important;
+    --nextui-secondary-200: 294 58 72% !important;
+    --nextui-secondary-300: 294 58 72% !important;
+    --nextui-secondary-400: 294 58 72% !important;
+    --nextui-secondary-500: 294 58 72% !important;
+    --nextui-secondary-600: 294 58 72% !important;
+    --nextui-secondary-700: 294 58 72% !important;
+    --nextui-secondary-800: 294 58 72% !important;
+    --nextui-secondary-900: 294 58 72% !important;
+    --nextui-secondary-foreground: 0 0% 0% !important;
+    --nextui-secondary: 294 58 72% !important;
+    --nextui-radius-small: 4px !important;
+    --nextui-radius-medium: 4px !important;
+    --nextui-radius-large: 6px !important;
+    --nextui-box-shadow-small: none !important;
+    --nextui-box-shadow-medium: none !important;
+    --nextui-box-shadow-large: none !important;
+}
+
+.light,
+[data-theme="light"] {
+    color-scheme: light !important;
+    --nextui-background: 0 0% 95% !important;
+    --nextui-foreground-50: 0 0 98% !important;
+    --nextui-foreground-100: 0 0 95% !important;
+    --nextui-foreground-200: 0 0 90% !important;
+    --nextui-foreground-300: 0 0 80% !important;
+    --nextui-foreground-400: 0 0 70% !important;
+    --nextui-foreground-500: 0 0 60% !important;
+    --nextui-foreground-600: 0 0 50% !important;
+    --nextui-foreground-700: 0 0 40% !important;
+    --nextui-foreground-800: 0 0 30% !important;
+    --nextui-foreground-900: 0 0 20% !important;
+    --nextui-foreground: 0 0 0% !important;
+    --nextui-divider-opacity: 0 !important;
+    --nextui-content1: 0 0% 98% !important;
+    --nextui-content2: 0 0% 95% !important;
+    --nextui-content3: 0 0% 90% !important;
+    --nextui-content4: 0 0% 80% !important;
+    --nextui-default-50: 0 0% 98% !important;
+    --nextui-default-100: 0 0% 95% !important;
+    --nextui-default-200: 0 0% 90% !important;
+    --nextui-default-300: 0 0% 80% !important;
+    --nextui-default-400: 0 0% 70% !important;
+    --nextui-default-500: 0 0% 60% !important;
+    --nextui-default-600: 0 0% 50% !important;
+    --nextui-default-700: 0 0% 40% !important;
+    --nextui-default-800: 0 0% 30% !important;
+    --nextui-default-900: 0 0% 20% !important;
+    --nextui-default: 0 0% 80% !important;
+    --nextui-primary-50: 208 100 38% !important;
+    --nextui-primary-100: 208 100 38% !important;
+    --nextui-primary-200: 208 100 38% !important;
+    --nextui-primary-300: 208 100 38% !important;
+    --nextui-primary-400: 208 100 38% !important;
+    --nextui-primary-500: 208 100 38% !important;
+    --nextui-primary-600: 208 100 38% !important;
+    --nextui-primary-700: 208 100 38% !important;
+    --nextui-primary-800: 208 100 38% !important;
+    --nextui-primary-900: 208 100 38% !important;
+    --nextui-primary-foreground: 0 0% 100% !important;
+    --nextui-primary: 208 100 38% !important;
+    --nextui-secondary-50: 265 40 43% !important;
+    --nextui-secondary-100: 265 40 43% !important;
+    --nextui-secondary-200: 265 40 43% !important;
+    --nextui-secondary-300: 265 40 43% !important;
+    --nextui-secondary-400: 265 40 43% !important;
+    --nextui-secondary-500: 265 40 43% !important;
+    --nextui-secondary-600: 265 40 43% !important;
+    --nextui-secondary-700: 265 40 43% !important;
+    --nextui-secondary-800: 265 40 43% !important;
+    --nextui-secondary-900: 265 40 43% !important;
+    --nextui-secondary-foreground: 0 0% 100% !important;
+    --nextui-secondary: 265 40 43% !important;
+    --nextui-radius-small: 4px !important;
+    --nextui-radius-medium: 4px !important;
+    --nextui-radius-large: 6px !important;
+    --nextui-box-shadow-small: 0px 0px 0px 0px rgb(0 0 0 / 0.02), 0px 2px 10px 0px rgb(0 0 0 / 0.06), 0px 0px 1px 0px rgb(0 0 0 / 0.3) !important;
+    --nextui-box-shadow-medium: 0px 0px 0px 0px rgb(0 0 0 / 0.03), 0px 2px 30px 0px rgb(0 0 0 / 0.08), 0px 0px 1px 0px rgb(0 0 0 / 0.3) !important;
+    --nextui-box-shadow-large: 0px 0px 0px 0px rgb(0 0 0 / 0.04), 0px 30px 60px 0px rgb(0 0 0 / 0.12), 0px 0px 1px 0px rgb(0 0 0 / 0.3) !important;
+}
