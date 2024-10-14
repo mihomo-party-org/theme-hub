@@ -1,5 +1,23 @@
 /* 二刺螈 */
 
+.floating-icon {
+    display: none !important;
+}
+
+.floating-thumb.bg-primary {
+    background-size: contain !important;
+    background-color: transparent !important;
+    /* https://www.bilibili.com/read/cv8181358 */
+    background-image: url('https://i0.hdslb.com/bfs/article/916637ae86ff9365700b7f6cf13148e1a4282388.png') !important;
+}
+
+.floating-thumb.bg-secondary {
+    background-size: contain !important;
+    background-color: transparent !important;
+    /* https://www.bilibili.com/read/cv8181358 */
+    background-image: url('https://i0.hdslb.com/bfs/article/b5f7d2d2e1d84e998ce71be55e886d74fc7566b0.png') !important;
+}
+
 .light,
 [data-theme="light"] {
     /* 主题色 */
