@@ -28,7 +28,7 @@ label:not([data-selected])>span.items-center {
 }
 
 label[data-selected="true"]>span.items-center {
-    height: 18px !important;
+    height: 20px !important;
 }
 
 label:not([data-selected])>span>span {
