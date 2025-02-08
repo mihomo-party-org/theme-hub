@@ -1,12 +1,12 @@
 /* Catalina */
 
 .dark .side {
-    --nextui-content1: 0 0 27 !important;
+    --heroui-content1: 0 0 27 !important;
     background-color: hsl(0 0 20) !important;
 }
 
 .light .side {
-    --nextui-content1: 0 0 83 !important;
+    --heroui-content1: 0 0 83 !important;
     background-color: hsl(0 0 92) !important;
 }
 
@@ -15,127 +15,127 @@
 }
 
 .side .sticky>div>div {
-    color: hsl(var(--nextui-primary)) !important;
+    color: hsl(var(--heroui-primary)) !important;
 }
 
 .side .grid>div>div:not(.bg-primary):hover {
-    background-color: hsl(var(--nextui-content4)) !important;
+    background-color: hsl(var(--heroui-content4)) !important;
 }
 
 [data-slot="input-wrapper"][data-focus="true"] {
-    border: 4px solid hsl(var(--nextui-primary)/ 30%) !important;
+    border: 4px solid hsl(var(--heroui-primary)/ 30%) !important;
 }
 
 [data-slot="content"] {
-    --nextui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
+    --heroui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
         0px 2px 10px 0px rgb(0 0 0 / 0.2),
         inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-    --nextui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
+    --heroui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
         0px 2px 30px 0px rgb(0 0 0 / 0.22),
         inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-    --nextui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
+    --heroui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
         0px 30px 60px 0px rgb(0 0 0 / 0.26),
         inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
-    --nextui-hover-opacity: 0.9 !important;
+    --heroui-hover-opacity: 0.9 !important;
 }
 
 .dark,
 [data-theme="dark"] {
-    --nextui-background: 0 0 12% !important;
-    --nextui-foreground-50: 0 0 10 !important;
-    --nextui-foreground-100: 0 0 15 !important;
-    --nextui-foreground-200: 0 0 25 !important;
-    --nextui-foreground-300: 0 0 35 !important;
-    --nextui-foreground-400: 0 0 45 !important;
-    --nextui-foreground-500: 0 0 68 !important;
-    --nextui-foreground-600: 0 0 84 !important;
-    --nextui-foreground-700: 0 0 90 !important;
-    --nextui-foreground-800: 0 0 95 !important;
-    --nextui-foreground-900: 0 0 98 !important;
-    --nextui-foreground: 0 0 100 !important;
-    --nextui-divider-opacity: 0 !important;
-    --nextui-content1: 0 0 19 !important;
-    --nextui-content2: 0 0 25 !important;
-    --nextui-content3: 0 0 27 !important;
-    --nextui-content4: 0 0 31 !important;
-    --nextui-default-50: 0 0 19 !important;
-    --nextui-default-100: 0 0 25 !important;
-    --nextui-default-200: 0 0 27 !important;
-    --nextui-default-300: 0 0 31 !important;
-    --nextui-default-400: 0 0 46 !important;
-    --nextui-default-500: 0 0 68 !important;
-    --nextui-default-600: 0 0 84 !important;
-    --nextui-default-700: 0 0 90 !important;
-    --nextui-default-800: 0 0 95 !important;
-    --nextui-default-900: 0 0 98 !important;
-    --nextui-default: 0 0 25 !important;
-    --nextui-primary-50: 213 100 54% !important;
-    --nextui-primary-100: 213 100 54% !important;
-    --nextui-primary-200: 213 100 54% !important;
-    --nextui-primary-300: 213 100 54% !important;
-    --nextui-primary-400: 213 100 54% !important;
-    --nextui-primary-500: 213 100 54% !important;
-    --nextui-primary-600: 213 100 54% !important;
-    --nextui-primary-700: 213 100 54% !important;
-    --nextui-primary-800: 213 100 54% !important;
-    --nextui-primary-900: 213 100 54% !important;
-    --nextui-primary-foreground: 0 0% 100% !important;
-    --nextui-primary: 213 100 54% !important;
-    --nextui-radius-small: 6px !important;
-    --nextui-radius-medium: 8px !important;
-    --nextui-radius-large: 12px !important;
-    --nextui-box-shadow-small: none !important;
-    --nextui-box-shadow-medium: none !important;
-    --nextui-box-shadow-large: none !important;
+    --heroui-background: 0 0 12% !important;
+    --heroui-foreground-50: 0 0 10 !important;
+    --heroui-foreground-100: 0 0 15 !important;
+    --heroui-foreground-200: 0 0 25 !important;
+    --heroui-foreground-300: 0 0 35 !important;
+    --heroui-foreground-400: 0 0 45 !important;
+    --heroui-foreground-500: 0 0 68 !important;
+    --heroui-foreground-600: 0 0 84 !important;
+    --heroui-foreground-700: 0 0 90 !important;
+    --heroui-foreground-800: 0 0 95 !important;
+    --heroui-foreground-900: 0 0 98 !important;
+    --heroui-foreground: 0 0 100 !important;
+    --heroui-divider-opacity: 0 !important;
+    --heroui-content1: 0 0 19 !important;
+    --heroui-content2: 0 0 25 !important;
+    --heroui-content3: 0 0 27 !important;
+    --heroui-content4: 0 0 31 !important;
+    --heroui-default-50: 0 0 19 !important;
+    --heroui-default-100: 0 0 25 !important;
+    --heroui-default-200: 0 0 27 !important;
+    --heroui-default-300: 0 0 31 !important;
+    --heroui-default-400: 0 0 46 !important;
+    --heroui-default-500: 0 0 68 !important;
+    --heroui-default-600: 0 0 84 !important;
+    --heroui-default-700: 0 0 90 !important;
+    --heroui-default-800: 0 0 95 !important;
+    --heroui-default-900: 0 0 98 !important;
+    --heroui-default: 0 0 25 !important;
+    --heroui-primary-50: 213 100 54% !important;
+    --heroui-primary-100: 213 100 54% !important;
+    --heroui-primary-200: 213 100 54% !important;
+    --heroui-primary-300: 213 100 54% !important;
+    --heroui-primary-400: 213 100 54% !important;
+    --heroui-primary-500: 213 100 54% !important;
+    --heroui-primary-600: 213 100 54% !important;
+    --heroui-primary-700: 213 100 54% !important;
+    --heroui-primary-800: 213 100 54% !important;
+    --heroui-primary-900: 213 100 54% !important;
+    --heroui-primary-foreground: 0 0% 100% !important;
+    --heroui-primary: 213 100 54% !important;
+    --heroui-radius-small: 6px !important;
+    --heroui-radius-medium: 8px !important;
+    --heroui-radius-large: 12px !important;
+    --heroui-box-shadow-small: none !important;
+    --heroui-box-shadow-medium: none !important;
+    --heroui-box-shadow-large: none !important;
 }
 
 .light,
 [data-theme="light"] {
-    --nextui-background: 0 0% 100% !important;
-    --nextui-foreground-50: 0 0 98 !important;
-    --nextui-foreground-100: 0 0 95 !important;
-    --nextui-foreground-200: 0 0 85 !important;
-    --nextui-foreground-300: 0 0 65 !important;
-    --nextui-foreground-400: 0 0 45 !important;
-    --nextui-foreground-500: 0 0 35 !important;
-    --nextui-foreground-600: 0 0 25 !important;
-    --nextui-foreground-700: 0 0 20 !important;
-    --nextui-foreground-800: 0 0 15 !important;
-    --nextui-foreground-900: 0 0 10 !important;
-    --nextui-foreground: 0 0 15 !important;
-    --nextui-divider-opacity: 0 !important;
-    --nextui-content1: 0 0% 95% !important;
-    --nextui-content2: 0 0% 92% !important;
-    --nextui-content3: 0 0% 87% !important;
-    --nextui-content4: 0 0% 83% !important;
-    --nextui-default-50: 0 0% 95% !important;
-    --nextui-default-100: 0 0% 92% !important;
-    --nextui-default-200: 0 0% 87% !important;
-    --nextui-default-300: 0 0% 83% !important;
-    --nextui-default-400: 0 0% 68% !important;
-    --nextui-default-500: 0 0% 46% !important;
-    --nextui-default-600: 0 0% 35% !important;
-    --nextui-default-700: 0 0% 25% !important;
-    --nextui-default-800: 0 0% 15% !important;
-    --nextui-default-900: 0 0% 10% !important;
-    --nextui-default-foreground: 0 0 15 !important;
-    --nextui-default: 0 0% 83% !important;
-    --nextui-primary-50: 214 100 52 !important;
-    --nextui-primary-100: 214 100 52 !important;
-    --nextui-primary-200: 214 100 52 !important;
-    --nextui-primary-300: 214 100 52 !important;
-    --nextui-primary-400: 214 100 52 !important;
-    --nextui-primary-500: 214 100 52 !important;
-    --nextui-primary-600: 214 100 52 !important;
-    --nextui-primary-700: 214 100 52 !important;
-    --nextui-primary-800: 214 100 52 !important;
-    --nextui-primary-900: 214 100 52 !important;
-    --nextui-primary-foreground: 0 0% 100% !important;
-    --nextui-primary: 214 100 52 !important;
-    --nextui-radius-small: 6px !important;
-    --nextui-radius-medium: 8px !important;
-    --nextui-radius-large: 12px !important;
-    --nextui-box-shadow-small: none !important;
-    --nextui-box-shadow-medium: none !important;
-    --nextui-box-shadow-large: none !important;
+    --heroui-background: 0 0% 100% !important;
+    --heroui-foreground-50: 0 0 98 !important;
+    --heroui-foreground-100: 0 0 95 !important;
+    --heroui-foreground-200: 0 0 85 !important;
+    --heroui-foreground-300: 0 0 65 !important;
+    --heroui-foreground-400: 0 0 45 !important;
+    --heroui-foreground-500: 0 0 35 !important;
+    --heroui-foreground-600: 0 0 25 !important;
+    --heroui-foreground-700: 0 0 20 !important;
+    --heroui-foreground-800: 0 0 15 !important;
+    --heroui-foreground-900: 0 0 10 !important;
+    --heroui-foreground: 0 0 15 !important;
+    --heroui-divider-opacity: 0 !important;
+    --heroui-content1: 0 0% 95% !important;
+    --heroui-content2: 0 0% 92% !important;
+    --heroui-content3: 0 0% 87% !important;
+    --heroui-content4: 0 0% 83% !important;
+    --heroui-default-50: 0 0% 95% !important;
+    --heroui-default-100: 0 0% 92% !important;
+    --heroui-default-200: 0 0% 87% !important;
+    --heroui-default-300: 0 0% 83% !important;
+    --heroui-default-400: 0 0% 68% !important;
+    --heroui-default-500: 0 0% 46% !important;
+    --heroui-default-600: 0 0% 35% !important;
+    --heroui-default-700: 0 0% 25% !important;
+    --heroui-default-800: 0 0% 15% !important;
+    --heroui-default-900: 0 0% 10% !important;
+    --heroui-default-foreground: 0 0 15 !important;
+    --heroui-default: 0 0% 83% !important;
+    --heroui-primary-50: 214 100 52 !important;
+    --heroui-primary-100: 214 100 52 !important;
+    --heroui-primary-200: 214 100 52 !important;
+    --heroui-primary-300: 214 100 52 !important;
+    --heroui-primary-400: 214 100 52 !important;
+    --heroui-primary-500: 214 100 52 !important;
+    --heroui-primary-600: 214 100 52 !important;
+    --heroui-primary-700: 214 100 52 !important;
+    --heroui-primary-800: 214 100 52 !important;
+    --heroui-primary-900: 214 100 52 !important;
+    --heroui-primary-foreground: 0 0% 100% !important;
+    --heroui-primary: 214 100 52 !important;
+    --heroui-radius-small: 6px !important;
+    --heroui-radius-medium: 8px !important;
+    --heroui-radius-large: 12px !important;
+    --heroui-box-shadow-small: none !important;
+    --heroui-box-shadow-medium: none !important;
+    --heroui-box-shadow-large: none !important;
 }

@@ -1,14 +1,14 @@
 /* 默认-灰色背景 */
 
 .dark, [data-theme="dark"] {
-  --nextui-background: 240 5.88% 10% !important;
-  --nextui-content1: 240 3.7% 15.88% !important;
-  --nextui-content2: 240 5.26% 26.08% !important;
-  --nextui-content3: 240 5.2% 33.92% !important;
-  --nextui-default-50: 240 3.7% 15.88% !important;
-  --nextui-default-100: 240 5.26% 26.08% !important;
-  --nextui-default-200: 240 5.2% 33.92% !important;
-  --nextui-default-300: 240 3.83% 46.08% !important;
-  --nextui-default-400: 240 5.03% 64.9% !important;
-  --nextui-default: 240 5.2% 33.92% !important;
+  --heroui-background: 240 5.88% 10% !important;
+  --heroui-content1: 240 3.7% 15.88% !important;
+  --heroui-content2: 240 5.26% 26.08% !important;
+  --heroui-content3: 240 5.2% 33.92% !important;
+  --heroui-default-50: 240 3.7% 15.88% !important;
+  --heroui-default-100: 240 5.26% 26.08% !important;
+  --heroui-default-200: 240 5.2% 33.92% !important;
+  --heroui-default-300: 240 3.83% 46.08% !important;
+  --heroui-default-400: 240 5.03% 64.9% !important;
+  --heroui-default: 240 5.2% 33.92% !important;
 }

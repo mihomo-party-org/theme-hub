@@ -1,29 +1,29 @@
 /* 小而美 */
 
 .dark, [data-theme="dark"] {
-    --nextui-background: 0 0 7% !important;
-    --nextui-content1: 0 0 10% !important;
-    --nextui-content2: 0 0 14% !important;
-    --nextui-content3: 0 0 18% !important;
-    --nextui-content4: 0 0 22% !important;
-    --nextui-default: 0 0 18% !important;
-    --nextui-default-50: 0 0 10% !important;
-    --nextui-default-100: 0 0 14% !important;
-    --nextui-default-200: 0 0 18% !important;
-    --nextui-default-300: 0 0 22% !important;
+    --heroui-background: 0 0 7% !important;
+    --heroui-content1: 0 0 10% !important;
+    --heroui-content2: 0 0 14% !important;
+    --heroui-content3: 0 0 18% !important;
+    --heroui-content4: 0 0 22% !important;
+    --heroui-default: 0 0 18% !important;
+    --heroui-default-50: 0 0 10% !important;
+    --heroui-default-100: 0 0 14% !important;
+    --heroui-default-200: 0 0 18% !important;
+    --heroui-default-300: 0 0 22% !important;
 }
 
 .light, [data-theme="light"] {
-    --nextui-background: 0 0 96% !important;
+    --heroui-background: 0 0 96% !important;
 }
 
 html {
-    --nextui-primary: 149 93 39% !important;
-    --nextui-secondary: 209 87 51% !important;
-    --nextui-success: 149 93 39% !important;
-    --nextui-warning: 32 93 60% !important;
-    --nextui-danger: 1 92 64% !important;
-    --nextui-radius-small: 4px !important;
-    --nextui-radius-medium: 6px !important;
-    --nextui-radius-large: 8px !important;
+    --heroui-primary: 149 93 39% !important;
+    --heroui-secondary: 209 87 51% !important;
+    --heroui-success: 149 93 39% !important;
+    --heroui-warning: 32 93 60% !important;
+    --heroui-danger: 1 92 64% !important;
+    --heroui-radius-small: 4px !important;
+    --heroui-radius-medium: 6px !important;
+    --heroui-radius-large: 8px !important;
 }

@@ -32,7 +32,7 @@
 .light,
 [data-theme="light"] {
     /* 主题色 */
-    --nextui-primary: 350 70% 75% !important;
+    --heroui-primary: 350 70% 75% !important;
     --custom-content1-opacity: 0.7 !important;
     --custom-content2-opacity: 0.8 !important;
     /* 写base64可以不从网络加载图片 */
@@ -42,7 +42,7 @@
 .dark,
 [data-theme="dark"] {
     /* 主题色 */
-    --nextui-primary: 210 100% 45% !important;
+    --heroui-primary: 210 100% 45% !important;
     --custom-content1-opacity: 0.8 !important;
     --custom-content2-opacity: 0.7 !important;
     /* 写base64可以不从网络加载图片 */
@@ -50,7 +50,7 @@
 }
 
 html {
-    --nextui-background: none !important;
+    --heroui-background: none !important;
     background: transparent !important;
     background-image: var(--custom-background-image) !important;
     background-size: cover !important;
@@ -81,12 +81,12 @@ html {
 }
 
 .bg-primary\/30 {
-    background-color: hsl(var(--nextui-primary)) !important;
+    background-color: hsl(var(--heroui-primary)) !important;
     opacity: var(--custom-content1-opacity) !important;
 }
 
 .bg-secondary\/30 {
-    background-color: hsl(var(--nextui-secondary)) !important;
+    background-color: hsl(var(--heroui-secondary)) !important;
     opacity: var(--custom-content1-opacity) !important;
 }
 
