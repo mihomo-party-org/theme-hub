@@ -1,0 +1,19 @@
+/* Tokyo Night */
+
+.dark,
+[data-theme="dark"] {
+  --heroui-background: 235 21% 13% !important;
+  --heroui-default: 228 23% 21% !important;
+  --heroui-default-100: 228 23% 21% !important;
+  --heroui-default-200: 229 23% 33% !important;
+  --heroui-content1: 240 15% 10% !important;
+  --heroui-content2: 228 23% 21% !important;
+}
+
+html {
+  --heroui-primary: 221 87% 72% !important;
+  --heroui-secondary: 189 89% 45% !important;
+  --heroui-success: 168 74% 42% !important;
+  --heroui-warning: 35 66% 64% !important;
+  --heroui-danger: 349 89% 72% !important;
+}
