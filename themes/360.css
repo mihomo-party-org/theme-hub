@@ -10,6 +10,7 @@
 
 .floating-thumb {
     background-size: contain !important;
+    background-color: transparent !important;
     background-image: url('https://p3.ssl.qhimg.com/t0128439c6143122bad.png') !important;
 }
 
