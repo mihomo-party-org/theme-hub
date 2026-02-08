@@ -1,0 +1,250 @@
+/* Miku by 九思 */
+/**
+ * 作者: 九思
+ * 描述: 一款基于初音未来风格的高透亮色玻璃拟态主题。
+ * 特性: 支持自定义背景、精致的 UI 细节、Miku 专属配色。
+ */
+
+/* ==================================================================
+   1. 核心变量配置 (Core Variables)
+   ================================================================== */
+:root,
+.light,
+.dark,
+[data-theme="light"],
+[data-theme="dark"] {
+    /* * [自定义背景] 在这里替换图片链接即可
+        * 建议使用亮色系的图片以获得最佳效果
+        */
+    --miku-bg-image: url('https://w.wallhaven.cc/full/l3/wallhaven-l3y33q.png');
+
+    /* --- 核心色板 (Miku 配色) --- */
+    --miku-cyan: 174 100% 45%;
+    /* 主色：Miku 葱绿 */
+    --miku-pink: 335 85% 55%;
+    /* 点缀色：洋红 (耳机/发饰) */
+    --glass-base: 255 255 255;
+    /* 玻璃底色：纯白 */
+
+    /* --- HeroUI 变量覆盖 (透明度与颜色) --- */
+    --heroui-background: transparent !important;
+    --titlebar-area-background: transparent !important;
+
+    /* 内容层级背景 (高透设定) */
+    --heroui-content1: var(--glass-base) / 0.25 !important;
+    /* 卡片背景 */
+    --heroui-content2: var(--glass-base) / 0.35 !important;
+    /* 侧边栏/输入框 */
+    --heroui-content3: var(--glass-base) / 0.45 !important;
+    /* 悬停状态 */
+
+    /* 主色调应用 */
+    --heroui-primary: var(--miku-cyan) !important;
+    --heroui-primary-foreground: #ffffff !important;
+
+    /* 边框与分割线 (极细微的白色) */
+    --heroui-divider: rgba(255, 255, 255, 0.2) !important;
+    --heroui-border: rgba(255, 255, 255, 0.3) !important;
+
+    /* 字体颜色 (深灰，保证在亮色玻璃上的可读性) */
+    --heroui-foreground: #1a1a1a !important;
+    --heroui-foreground-500: #4a5568 !important;
+}
+
+/* ==================================================================
+      2. 全局背景与布局 (Global Background)
+      ================================================================== */
+html,
+body {
+    /* 使用上方定义的变量，方便替换 */
+    background: var(--miku-bg-image) no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-color: transparent !important;
+    text-shadow: none !important;
+    /* 清除默认文字阴影，保持干净 */
+}
+
+/* 强制根容器透明，让背景图透出来 */
+#root,
+.app,
+.w-full,
+.flex,
+.h-screen {
+    background-color: transparent !important;
+}
+
+/* ==================================================================
+      3. 主界面玻璃拟态 (Glassmorphism)
+      ================================================================== */
+.main {
+    background-color: transparent !important;
+    /* 全局高斯模糊 */
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    /* 叠加一层极淡的白色渐变，增加纵深感 */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.15)) !important;
+}
+
+/* 顶部标题栏 / 导航区 */
+.main .sticky,
+.main header,
+.main [data-slot="navbar"] {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(15px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* ==================================================================
+      4. 组件：侧边栏 (Miku Style Sidebar)
+      ================================================================== */
+.side {
+    position: relative !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(20px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* [细节] 右下角 "01" 水印 (致敬 CV01 纹身) */
+.side::after {
+    content: "01";
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+    color: hsl(var(--miku-pink)) !important;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+    letter-spacing: -2px;
+}
+
+/* [细节] 侧边栏图标选中状态 */
+.side .grid>div>div.bg-primary {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px hsl(var(--miku-cyan) / 0.4) !important;
+}
+
+/* 左侧粉色信号灯指示条 */
+.side .grid>div>div.bg-primary::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 3px;
+    background-color: hsl(var(--miku-pink));
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 5px hsl(var(--miku-pink));
+}
+
+/* ==================================================================
+      5. 组件：节点卡片 (Node Cards)
+      ================================================================== */
+
+/* 精准选中网格列表中的高亮卡片 (排除顶部分段控制器) */
+.main .grid .bg-primary\/30 {
+    position: relative !important;
+
+    /* 优雅风格：极淡的青色背景 + 细微光边 */
+    background-color: rgba(57, 197, 187, 0.15) !important;
+    border: 1px solid rgba(57, 197, 187, 0.4) !important;
+
+    /* 左侧洋红强调色边框 (Miku Pink Accent) */
+    border-left: 3px solid hsl(var(--miku-pink)) !important;
+
+    /* 柔和的青色氛围光 */
+    box-shadow: 0 4px 15px -3px rgba(57, 197, 187, 0.3) !important;
+
+    /* 重置变换，保持整洁 */
+    transform: none !important;
+    z-index: 1 !important;
+}
+
+/* 确保选中卡片内的文字清晰 (黑色加粗) */
+.main .grid .bg-primary\/30 * {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* 清理不需要的伪元素 */
+.main .grid .bg-primary\/30::after {
+    display: none !important;
+}
+
+/* 普通未选中卡片 */
+.bg-content1,
+.bg-content2 {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-content1:hover,
+.bg-content2:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    border-color: hsl(var(--miku-cyan) / 0.4) !important;
+}
+
+/* ==================================================================
+      6. 组件：输入框与滚动条 (Inputs & Scrollbars)
+      ================================================================== */
+
+/* 输入框样式 */
+[data-slot="input-wrapper"] {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    border-bottom: 2px solid rgba(57, 197, 187, 0.4) !important;
+    backdrop-filter: blur(5px);
+    color: #000 !important;
+}
+
+/* 输入聚焦时的光晕效果 */
+[data-slot="input-wrapper"][data-focus="true"] {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    border-bottom-color: transparent !important;
+    box-shadow: 0 2px 0 hsl(var(--miku-cyan)), 0 4px 8px -2px hsl(var(--miku-pink)) !important;
+}
+
+/* 荧光滚动条 (应援色) */
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(57, 197, 187, 0.4) !important;
+    border-radius: 99px;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停变粉色 */
+*::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--miku-pink)) !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+/* ==================================================================
+      7. 组件：弹窗与开关 (Popovers & Switches)
+      ================================================================== */
+
+/* 下拉菜单/弹窗 (不透明度稍高，防止看不清) */
+[data-slot="content"],
+.driver-popover {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(30px) !important;
+    border: 1px solid hsl(var(--miku-cyan) / 0.3) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 开关 (Switch) 样式微调 */
+label[data-selected="true"] .bg-default-200,
+label[data-selected="true"] .bg-default {
+    background-color: hsl(var(--heroui-primary)) !important;
+}
+
+label[data-selected="true"] span {
+    color: #fff !important;
+}
