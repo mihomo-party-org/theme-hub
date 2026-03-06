@@ -1,0 +1,93 @@
+/* 夏日晴空（by Strivy）*/
+
+.light,
+[data-theme="light"] {
+  --heroui-primary: 210 80% 55% !important;
+  --heroui-secondary: 100 55% 42% !important;
+      --heroui-foreground: 210 50% 10% !important;
+  --heroui-default-foreground: 210 50% 10% !important;
+  --heroui-divider-opacity: 0.08 !important;
+  --heroui-border-width-small: 1px !important;
+  --heroui-border-width-large: 1px !important;
+    --heroui-box-shadow-small: none !important;
+  --heroui-box-shadow-medium: none !important;
+  --heroui-box-shadow-large: none !important;
+      --custom-content1-opacity: 0.75;
+  --custom-content2-opacity: 0.82;
+  --custom-background-image: url('https://haowallpaper.com/link/common/file/previewFileImg/18325667651636608');
+}
+
+.dark,
+[data-theme="dark"] {
+  --heroui-primary: 210 80% 55% !important;
+  --heroui-secondary: 100 55% 38% !important;
+    --heroui-foreground: 210 20% 95% !important;
+  --heroui-default-foreground: 210 20% 95% !important;
+  --heroui-divider-opacity: 0.08 !important;
+  --heroui-border-width-small: 1px !important;
+  --heroui-border-width-large: 1px !important;
+    --heroui-box-shadow-small: none !important;
+  --heroui-box-shadow-medium: none !important;
+  --heroui-box-shadow-large: none !important;
+    --custom-content1-opacity: 0.75;
+  --custom-content2-opacity: 0.8;
+  --custom-background-image: url('https://haowallpaper.com/link/common/file/previewFileImg/18325667651636608');
+}
+
+/* 背景图设在 html 上 */
+html {
+  --heroui-background: none !important;
+  background: transparent !important;
+  background-image: var(--custom-background-image) !important;
+  background-size: cover !important;
+}
+
+/* 组件透明度 */
+.bg-default,
+.bg-default-100,
+.bg-default-200 {
+  opacity: var(--custom-content1-opacity) !important;
+}
+
+.bg-content1 {
+  opacity: var(--custom-content1-opacity) !important;
+}
+
+.bg-content2 {
+  opacity: var(--custom-content2-opacity) !important;
+}
+
+.bg-primary\/30 {
+  background-color: hsl(var(--heroui-primary)) !important;
+  opacity: var(--custom-content1-opacity) !important;
+}
+
+.main .sticky {
+  backdrop-filter: blur(8px);
+}
+
+/* 文字清晰 */
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* 侧边栏毛玻璃 */
+.side {
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
+
+/* 下拉菜单保持默认阴影 */
+[data-slot="content"] {
+  --heroui-box-shadow-small: 0px 0px 5px 0px rgb(0 0 0 / 0.05),
+    0px 2px 10px 0px rgb(0 0 0 / 0.2),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --heroui-box-shadow-medium: 0px 0px 15px 0px rgb(0 0 0 / 0.06),
+    0px 2px 30px 0px rgb(0 0 0 / 0.22),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --heroui-box-shadow-large: 0px 0px 30px 0px rgb(0 0 0 / 0.07),
+    0px 30px 60px 0px rgb(0 0 0 / 0.26),
+    inset 0px 0px 1px 0px rgb(255 255 255 / 0.15) !important;
+  --heroui-hover-opacity: 0.9 !important;
+}
+
